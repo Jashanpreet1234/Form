@@ -1,52 +1,49 @@
-#email{
-  width: 100%;
-  padding: 13px;
-  margin: 8px 0 22px 0;
-  border:1px solid rgb(0, 0, 0);
-
+*{
+    box-sizing: border-box;
 }
 
-#login{
-  width: 100%;
-  padding: 13px;
-  margin: 5px 0 22px 0;
-  border:1px solid rgb(0, 0, 0);
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border: 1cm;
+    
+    
+}
+
+.formcontainer{
+    width: 600px;
+    border-radius: 5px;
+    max-width: 100%;
+    background-color:rgb(243, 249, 249);
+}
+
+.textfield{
+    width: 100%;
+    padding: 30px 40px ;
+    margin-bottom: 20px;
+    padding:2%;
+    
+}
+
+.textfield label, .checkbox label{
+    color: black ;
+}
+
+.error{
+    color:red
 }
 
 
-#pass{
-  width: 100%;
-  padding: 13px;
-  margin: 5px 0 22px 0;
-  border:1px solid rgb(0, 0, 0);
+#signUp{
+    background-color :blue;
+     border: 0ch;  
+    color: white;
 }
 
-#pass2{
-  width: 100%;
-  padding: 13px;
-  margin: 5px 0 22px 0;
-  border:1px solid rgb(0, 0, 0);
-}
-
-
-
-#submit{
-  background-color: rgb(20, 20, 251);
-  color: rgb(241, 239, 239);
-  border:none;
-  border-radius: 25px;
-  padding: 5px;
-  margin: 5px 0 22px 0;
-
-}
 #reset{
-  background-color:rgb(238, 59, 23);
-  color: white;
-  border:none;
-  border-radius: 25px;
-  padding: 5px;
-  margin: 5px 0 22px 0;
-}
-.alert{
-  color:red
+    background-color: red;
+    border:0cm;
+    color: white;
 }
