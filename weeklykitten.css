@@ -1,0 +1,52 @@
+#email{
+  width: 100%;
+  padding: 13px;
+  margin: 8px 0 22px 0;
+  border:1px solid rgb(0, 0, 0);
+
+}
+
+#login{
+  width: 100%;
+  padding: 13px;
+  margin: 5px 0 22px 0;
+  border:1px solid rgb(0, 0, 0);
+}
+
+
+#pass{
+  width: 100%;
+  padding: 13px;
+  margin: 5px 0 22px 0;
+  border:1px solid rgb(0, 0, 0);
+}
+
+#pass2{
+  width: 100%;
+  padding: 13px;
+  margin: 5px 0 22px 0;
+  border:1px solid rgb(0, 0, 0);
+}
+
+
+
+#submit{
+  background-color: rgb(20, 20, 251);
+  color: rgb(241, 239, 239);
+  border:none;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+
+}
+#reset{
+  background-color:rgb(238, 59, 23);
+  color: white;
+  border:none;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+}
+.alert{
+  color:red
+}
